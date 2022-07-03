@@ -62,10 +62,6 @@ OptionParser.new do |opts|
     options[:file] = file
   end
 
-  opts.on('-o' "--output FILE", "Output test script filename. Overwrites existing.") do |file|
-    options[:output_file] = file
-  end
-
   opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
     options[:verbose] = v
   end
